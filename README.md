@@ -42,17 +42,7 @@ Após criar o ambiente virtual e instalar as dependências é hora de criar os p
 
 Criar o arquivo `main.py` esse script vai iniciar o servidor `uvicorn`  e o `fastapi`.
 
-```python
-# script main.py
-import uvicorn
-from fastapi import FastAPI
-
-app = FastApi("Primeiro App")
-
-if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8000)
-
-```
+[acesse aqui](https://github.com/rybeiro-dev/first-python-api/blob/main/main.py)
 
 Iniciar o script com o comando `python main.py`
 
