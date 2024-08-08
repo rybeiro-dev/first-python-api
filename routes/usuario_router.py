@@ -10,8 +10,8 @@ def index():
     return [
         UsuarioResponse(
             id=1,
-            nome='Teste',
-            email='test3@email.com'
+            nome='Fabio',
+            email='fabio@fabio.com'
         )
     ]
 
